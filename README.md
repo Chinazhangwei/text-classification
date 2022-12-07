@@ -1,4 +1,5 @@
 # text-classification
+idea 改成 .idea
 模型链接：https://pan.baidu.com/s/1A1OL6fUeFA63a_toNpcteA 提取码：71cw
 整体的代码架构分为五个部分NEZHA、torch_utils、preprocess、postprocess以及核心代码文件。
 
