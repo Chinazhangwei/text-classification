@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afdf5be9-ed9b-4622-bfe0-accc188af1a0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="68d97671-bc57-48d7-a778-28fb4d91390d" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1lxKzA52IeBXeQRfztj6KssWUC9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/文本分类" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alialili\Desktop\清华大学书籍代码\chapter7\torch_utils" />
+      <recent name="D:\Zhuiyi_project\MultiClassify4Torch\Prune" />
+      <recent name="D:\Zhuiyi_project\MultiClassify4Torch\distill" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alialili\Desktop\清华大学书籍代码\chapter7\torch_utils" />
+      <recent name="D:\Zhuiyi_project\MultiClassify4Torch\Prune" />
+      <recent name="D:\Zhuiyi_project\MultiClassify4Torch" />
+      <recent name="D:\Zhuiyi_project\MultiClassify4Torch\processed_data\bdci" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train_fine_tune (1)">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="MultiClassify4Torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_data_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiClassify4Torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess/draw_data_picture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiClassify4Torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiClassify4Torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiClassify4Torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess/preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_fine_tune (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiClassify4Torch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_fine_tune.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.train_fine_tune (1)" />
+      <item itemvalue="Python.draw_data_picture" />
+      <item itemvalue="Python.preprocess" />
+      <item itemvalue="Python.model" />
+      <item itemvalue="Python.predict" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_fine_tune (1)" />
+        <item itemvalue="Python.preprocess" />
+        <item itemvalue="Python.draw_data_picture" />
+        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afdf5be9-ed9b-4622-bfe0-accc188af1a0" name="Default Changelist" comment="" />
+      <created>1608533561412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608533561412</updated>
+      <workItem from="1608533562466" duration="2312000" />
+      <workItem from="1608638702295" duration="3593000" />
+      <workItem from="1608709363222" duration="21659000" />
+      <workItem from="1608902094257" duration="225000" />
+      <workItem from="1609060576440" duration="282000" />
+      <workItem from="1609138721008" duration="20796000" />
+      <workItem from="1609218484982" duration="6499000" />
+      <workItem from="1609243233106" duration="622000" />
+      <workItem from="1609567722922" duration="38643000" />
+      <workItem from="1609724920025" duration="1750000" />
+      <workItem from="1609922841738" duration="2063000" />
+      <workItem from="1609935610217" duration="3107000" />
+      <workItem from="1611558434430" duration="6573000" />
+      <workItem from="1611576780054" duration="2099000" />
+      <workItem from="1611579469046" duration="318000" />
+      <workItem from="1612446787874" duration="1258000" />
+      <workItem from="1612533483354" duration="4076000" />
+      <workItem from="1612591271786" duration="15000" />
+      <workItem from="1612607570102" duration="3055000" />
+      <workItem from="1612965689644" duration="3145000" />
+      <workItem from="1613146034047" duration="7000" />
+      <workItem from="1613493340629" duration="1810000" />
+      <workItem from="1613548924931" duration="29000" />
+      <workItem from="1613551054475" duration="3007000" />
+      <workItem from="1614126285998" duration="3135000" />
+      <workItem from="1614273786296" duration="1394000" />
+      <workItem from="1614348052035" duration="9000" />
+      <workItem from="1614745935508" duration="2578000" />
+      <workItem from="1614958067240" duration="1164000" />
+      <workItem from="1616129020282" duration="479000" />
+      <workItem from="1616131289877" duration="12000" />
+      <workItem from="1622706235423" duration="677000" />
+      <workItem from="1622708697245" duration="1193000" />
+      <workItem from="1622985018526" duration="3025000" />
+      <workItem from="1622988138340" duration="47000" />
+      <workItem from="1622988197929" duration="1071000" />
+      <workItem from="1622989925369" duration="812000" />
+      <workItem from="1623584003508" duration="2427000" />
+      <workItem from="1623659679302" duration="45000" />
+      <workItem from="1624168902424" duration="5654000" />
+      <workItem from="1624174972001" duration="1282000" />
+      <workItem from="1624180477617" duration="26000" />
+      <workItem from="1624181280121" duration="887000" />
+      <workItem from="1624182543172" duration="210000" />
+      <workItem from="1624186699336" duration="428000" />
+      <workItem from="1624188900531" duration="585000" />
+      <workItem from="1624190124723" duration="229000" />
+      <workItem from="1624190364041" duration="9662000" />
+      <workItem from="1624200830339" duration="21000" />
+      <workItem from="1624513717745" duration="28000" />
+      <workItem from="1624984612122" duration="1189000" />
+      <workItem from="1625235652029" duration="640000" />
+      <workItem from="1625280523299" duration="1436000" />
+      <workItem from="1625282351241" duration="982000" />
+      <workItem from="1625478004218" duration="49000" />
+      <workItem from="1626092093487" duration="221000" />
+      <workItem from="1647922197018" duration="180000" />
+      <workItem from="1647936944978" duration="824000" />
+      <workItem from="1647949623070" duration="252000" />
+      <workItem from="1648000177249" duration="1910000" />
+      <workItem from="1648025818318" duration="8648000" />
+      <workItem from="1648084926580" duration="1874000" />
+      <workItem from="1648086827726" duration="100000" />
+      <workItem from="1648086996291" duration="2334000" />
+      <workItem from="1648108189875" duration="107000" />
+      <workItem from="1648108299429" duration="4900000" />
+      <workItem from="1648121489993" duration="347000" />
+      <workItem from="1648175285784" duration="3380000" />
+      <workItem from="1648260117857" duration="13318000" />
+      <workItem from="1648284933945" duration="41000" />
+      <workItem from="1648284984020" duration="480000" />
+      <workItem from="1648286677456" duration="1841000" />
+      <workItem from="1648288561992" duration="23372000" />
+      <workItem from="1648371729842" duration="306000" />
+      <workItem from="1648372082721" duration="1428000" />
+      <workItem from="1648373913013" duration="572000" />
+      <workItem from="1648374497150" duration="10000" />
+      <workItem from="1648376428827" duration="668000" />
+      <workItem from="1648387467159" duration="128000" />
+      <workItem from="1648520591353" duration="1060000" />
+      <workItem from="1648542420279" duration="13000" />
+      <workItem from="1648778620997" duration="46000" />
+      <workItem from="1656773781144" duration="4493000" />
+      <workItem from="1656811564475" duration="1245000" />
+      <workItem from="1656897532345" duration="1054000" />
+      <workItem from="1656899295481" duration="40000" />
+      <workItem from="1657154657038" duration="231000" />
+      <workItem from="1657154906463" duration="439000" />
+      <workItem from="1657167767366" duration="1512000" />
+      <workItem from="1670126673315" duration="598000" />
+      <workItem from="1670140365027" duration="1961000" />
+      <workItem from="1670142429973" duration="11000" />
+      <workItem from="1670142705297" duration="20000" />
+      <workItem from="1670143751826" duration="4486000" />
+      <workItem from="1670151061192" duration="34000" />
+      <workItem from="1670314750066" duration="1086000" />
+      <workItem from="1670316992800" duration="330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_fine_tune.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/textbrewer/distiller_general.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/textbrewer/distiller_general.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Distill/distill_utils.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>298</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>331</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>394</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>332</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>272</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers/modeling_bert.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Prune/transformers4tprune/modeling_bert.py</url>
+          <line>279</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Prune/evaluate.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NEZHA/model_nezha.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/predict_py$train_fine_tune__1_.coverage" NAME="train_fine_tune (1) Coverage Results" MODIFIED="1670317147811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter7$train_fine_tune.coverage" NAME="train_fine_tune Coverage Results" MODIFIED="1611576662557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prune" />
+    <SUITE FILE_PATH="coverage/$train_fine_tune__1_.coverage" NAME="train_fine_tune (1) 覆盖结果" MODIFIED="1648289097271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/predict_py$draw_data_picture.coverage" NAME="draw_data_picture Coverage Results" MODIFIED="1670141043723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocess" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$train_fine_tune__1_.coverage" NAME="train_fine_tune (1) Coverage Results" MODIFIED="1609662711977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$draw_data_picture.coverage" NAME="draw_data_picture Coverage Results" MODIFIED="1656897789483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocess" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$util__1_.coverage" NAME="util Coverage Results" MODIFIED="1609219332116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/distill" />
+    <SUITE FILE_PATH="coverage/chapter7$predict.coverage" NAME="predict Coverage Results" MODIFIED="1624200504992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$modeling_bert.coverage" NAME="modeling_bert Coverage Results" MODIFIED="1609594443844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/236908354/2112113184/transformers" />
+    <SUITE FILE_PATH="coverage/predict_py$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1670141366677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocess" />
+    <SUITE FILE_PATH="coverage/config_py$predict.coverage" NAME="predict Coverage Results" MODIFIED="1657155291320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter7$check_F1.coverage" NAME="check_F1 Coverage Results" MODIFIED="1611579508037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/postprocess" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$config.coverage" NAME="config Coverage Results" MODIFIED="1609570264288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$modeling_bert__1_.coverage" NAME="modeling_bert (1) Coverage Results" MODIFIED="1609596637227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformers4tprune" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$new_train.coverage" NAME="new_train Coverage Results" MODIFIED="1608796208180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$predict.coverage" NAME="predict Coverage Results" MODIFIED="1656777160510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter7$config.coverage" NAME="config Coverage Results" MODIFIED="1624190627194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter7$utils.coverage" NAME="utils Coverage Results" MODIFIED="1612536845168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$model.coverage" NAME="model Coverage Results" MODIFIED="1609145045436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$utils.coverage" NAME="utils Coverage Results" MODIFIED="1609165110656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/distill" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$train_fine_tune.coverage" NAME="train_fine_tune Coverage Results" MODIFIED="1609674204704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prune" />
+    <SUITE FILE_PATH="coverage/chapter7$draw_data_picture.coverage" NAME="draw_data_picture Coverage Results" MODIFIED="1613494003882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocess" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1609683918755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prune" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$Prune.coverage" NAME="Prune Coverage Results" MODIFIED="1609683612575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prune" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$train.coverage" NAME="train Coverage Results" MODIFIED="1608795876339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter7$train_fine_tune__1_.coverage" NAME="train_fine_tune (1) Coverage Results" MODIFIED="1624200775945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter7$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1624171798316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocess" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$modeling_bert__2_.coverage" NAME="modeling_bert (2) Coverage Results" MODIFIED="1609674189945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prune/transformers4tprune" />
+    <SUITE FILE_PATH="coverage/$config.coverage" NAME="config 覆盖结果" MODIFIED="1648286791496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$distill__1_.coverage" NAME="distill (1) Coverage Results" MODIFIED="1609220497104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Distill" />
+    <SUITE FILE_PATH="coverage/MultiClassify4Torch$distill.coverage" NAME="distill Coverage Results" MODIFIED="1609219987936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/distill" />
+  </component>
+</project>
