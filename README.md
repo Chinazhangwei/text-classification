@@ -1,6 +1,12 @@
 # text-classification
+
+
 idea文件 改成 .idea
+
+
 模型链接：https://pan.baidu.com/s/1A1OL6fUeFA63a_toNpcteA 提取码：71cw
+
+
 整体的代码架构分为五个部分NEZHA、torch_utils、preprocess、postprocess以及核心代码文件。
 
 NEZHA文件夹：NEZHA预训练模型是当前泛化性能比较优秀的中文预训练模型。为此，本书将使用NEZHA预训练模型作为本书自然语言处理下游任务的预训练模型。而NEZHA文件夹存放的则是调用NEZHA预训练模型所需要的代码。
